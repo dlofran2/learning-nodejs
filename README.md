@@ -11,3 +11,6 @@ Learned about the basics of Express.js routing, making views, and hosting privat
 ## Module 3
 Learned how to manage data, render dynamic content in a view, and use templating engine like pug, ejs, and hbs.  
 For all the templating engines, learned how to render conditionals, using layouts/includes and more.
+
+## Module 4
+Learned about the differences between the models, views, and how the data interacts between the different aspects. 
