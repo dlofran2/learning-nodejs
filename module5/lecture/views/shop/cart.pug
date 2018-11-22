@@ -4,4 +4,22 @@ block styles
 
 block content
     main
-        h1 Cart
+        if cartProducts.length > 0
+            h1 Products
+            ul
+                each cartProduct in cartProducts
+                    li 
+                        p #{cartProduct.product.title} #{(cartProduct.quantity)} #{cartProduct.id}
+                        form(
+                            action="/cart-delete-item"
+                            method="POST"
+                        )
+                            input(
+                                type="hidden"
+                                name="productId"
+                                value=cartProduct.product.id
+                            )
+                            button.btn(type="submit") Delete
+
+        else 
+            h1 Your cart is empty

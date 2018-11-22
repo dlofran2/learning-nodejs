@@ -5,10 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "node",
+            "type": "chrome",
             "request": "launch",
-            "name": "Launch Program",
-            "program": "${workspaceFolder}/module5/lecture/models/product.js"
-        }
+            "name": "Launch localhost",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/module5/lecture/app.js"
+        },
     ]
 }

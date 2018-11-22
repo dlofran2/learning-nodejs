@@ -21,3 +21,4 @@ Added more routes, reorganized the so the code was more understandable and to cr
 _Note_ From here on out, I will be creating separate branches for each module as copying the folders is getting redundent.
 
 ## Module 6
+Added even more routes and added more functionality to create a *mock* eCommerce website.  Learned about dynamic routing, query parameters, learned more about models, static methods, and interacting between different models.

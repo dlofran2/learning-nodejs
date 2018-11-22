@@ -20,5 +20,3 @@ app.use(shopRoutes);
 app.use(errorRoutes);
 
 app.listen(3000);
-
-// https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Famsterdamduckstore.com%2Fwp-content%2Fuploads%2F2016%2F08%2FMarathon-Rubber-Duck.jpg&f=1
